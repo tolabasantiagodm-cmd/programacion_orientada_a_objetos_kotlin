@@ -1,1 +1,2 @@
-class Producto(var codigo: Int, val nombre: String, var precio: Double)
+data class Producto(var codigo: Int, val nombre: String, var precio: Double) {
+}

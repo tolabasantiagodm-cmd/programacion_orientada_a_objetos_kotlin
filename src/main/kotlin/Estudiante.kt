@@ -1,3 +1,3 @@
-class Estudiante(val nombre: String, val legajo: Int) {
+data class Estudiante(val nombre: String, var legajo: Int) {
     var calificacion: Double ?= null
 }
